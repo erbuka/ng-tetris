@@ -1,0 +1,9 @@
+<div class="w3-overlay w3-display-container w3-animate-opacity w3-show w3-theme">
+  <div class="w3-display-middle w3-center">
+    <div class="w3-large">Game Over</div>
+    <div>Your score: {{ score }}</div>
+    <div style="margin-top: 20vh">
+      <input #inputName type="text" class="w3-input w3-center" placeholder="Enter your name" (keyup)="onKeyUp($event)"/>
+    </div>
+  </div>
+</div>

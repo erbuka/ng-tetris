@@ -1,0 +1,5 @@
+<div class="tet-full w3-theme w3-medium">
+  <app-splash *ngIf="gameState == GameStates.Splash" (newGame)="onNewGame()"></app-splash>
+  <app-game *ngIf="gameState == GameStates.Playing" (gameOver)="onGameOver()"></app-game>
+  <app-loader *ngIf="gameState == GameStates.Loading" (loadEnd)="onLoadEnd()"></app-loader>
+</div>

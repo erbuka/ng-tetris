@@ -1,0 +1,193 @@
+.pixel-grid { position: relative; width: 688px; height : 112px; }
+.pixel-grid .pixel { position: absolute; width: 16px; height: 16px; overflow: hidden; border-radius: 20% }
+.pixel-grid .pixel.filled { opacity: 0; }
+.pixel-grid .pixel.filled .block { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+@keyframes ap-0-8 { from { opacity: 0; top: -368px; left: -32px; } to { opacity: 1; top: 0px; left: 128px; } }
+.pixel-grid .pixel.p-0-8 { animation: ap-0-8 0.5s 0.549s forwards; }
+@keyframes ap-0-9 { from { opacity: 0; top: 192px; left: -480px; } to { opacity: 1; top: 0px; left: 144px; } }
+.pixel-grid .pixel.p-0-9 { animation: ap-0-9 0.5s 0.384s forwards; }
+@keyframes ap-0-10 { from { opacity: 0; top: 1152px; left: 544px; } to { opacity: 1; top: 0px; left: 160px; } }
+.pixel-grid .pixel.p-0-10 { animation: ap-0-10 0.5s 0.063s forwards; }
+@keyframes ap-0-11 { from { opacity: 0; top: 512px; left: 1328px; } to { opacity: 1; top: 0px; left: 176px; } }
+.pixel-grid .pixel.p-0-11 { animation: ap-0-11 0.5s 0.105s forwards; }
+@keyframes ap-0-12 { from { opacity: 0; top: 640px; left: -672px; } to { opacity: 1; top: 0px; left: 192px; } }
+.pixel-grid .pixel.p-0-12 { animation: ap-0-12 0.5s 0.336s forwards; }
+@keyframes ap-0-14 { from { opacity: 0; top: -320px; left: -224px; } to { opacity: 1; top: 0px; left: 224px; } }
+.pixel-grid .pixel.p-0-14 { animation: ap-0-14 0.5s 0.24s forwards; }
+@keyframes ap-0-15 { from { opacity: 0; top: 224px; left: 288px; } to { opacity: 1; top: 0px; left: 240px; } }
+.pixel-grid .pixel.p-0-15 { animation: ap-0-15 0.5s 0.168s forwards; }
+@keyframes ap-0-16 { from { opacity: 0; top: 976px; left: -240px; } to { opacity: 1; top: 0px; left: 256px; } }
+.pixel-grid .pixel.p-0-16 { animation: ap-0-16 0.5s 0.027s forwards; }
+@keyframes ap-0-17 { from { opacity: 0; top: 496px; left: -240px; } to { opacity: 1; top: 0px; left: 272px; } }
+.pixel-grid .pixel.p-0-17 { animation: ap-0-17 0.5s 0.516s forwards; }
+@keyframes ap-0-18 { from { opacity: 0; top: -400px; left: 176px; } to { opacity: 1; top: 0px; left: 288px; } }
+.pixel-grid .pixel.p-0-18 { animation: ap-0-18 0.5s 0.861s forwards; }
+@keyframes ap-0-20 { from { opacity: 0; top: -256px; left: -496px; } to { opacity: 1; top: 0px; left: 320px; } }
+.pixel-grid .pixel.p-0-20 { animation: ap-0-20 0.5s 0.504s forwards; }
+@keyframes ap-0-21 { from { opacity: 0; top: -304px; left: -176px; } to { opacity: 1; top: 0px; left: 336px; } }
+.pixel-grid .pixel.p-0-21 { animation: ap-0-21 0.5s 0.276s forwards; }
+@keyframes ap-0-22 { from { opacity: 0; top: 1344px; left: -144px; } to { opacity: 1; top: 0px; left: 352px; } }
+.pixel-grid .pixel.p-0-22 { animation: ap-0-22 0.5s 0.177s forwards; }
+@keyframes ap-0-23 { from { opacity: 0; top: -512px; left: -592px; } to { opacity: 1; top: 0px; left: 368px; } }
+.pixel-grid .pixel.p-0-23 { animation: ap-0-23 0.5s 0.456s forwards; }
+@keyframes ap-0-24 { from { opacity: 0; top: -224px; left: 1072px; } to { opacity: 1; top: 0px; left: 384px; } }
+.pixel-grid .pixel.p-0-24 { animation: ap-0-24 0.5s 0.489s forwards; }
+@keyframes ap-0-26 { from { opacity: 0; top: 176px; left: -224px; } to { opacity: 1; top: 0px; left: 416px; } }
+.pixel-grid .pixel.p-0-26 { animation: ap-0-26 0.5s 0.015s forwards; }
+@keyframes ap-0-27 { from { opacity: 0; top: 224px; left: 352px; } to { opacity: 1; top: 0px; left: 432px; } }
+.pixel-grid .pixel.p-0-27 { animation: ap-0-27 0.5s 0.399s forwards; }
+@keyframes ap-0-28 { from { opacity: 0; top: 48px; left: 320px; } to { opacity: 1; top: 0px; left: 448px; } }
+.pixel-grid .pixel.p-0-28 { animation: ap-0-28 0.5s 0.318s forwards; }
+@keyframes ap-0-29 { from { opacity: 0; top: 1104px; left: 1312px; } to { opacity: 1; top: 0px; left: 464px; } }
+.pixel-grid .pixel.p-0-29 { animation: ap-0-29 0.5s 0.153s forwards; }
+@keyframes ap-0-30 { from { opacity: 0; top: 752px; left: -576px; } to { opacity: 1; top: 0px; left: 480px; } }
+.pixel-grid .pixel.p-0-30 { animation: ap-0-30 0.5s 0.723s forwards; }
+@keyframes ap-0-33 { from { opacity: 0; top: 512px; left: 352px; } to { opacity: 1; top: 0px; left: 528px; } }
+.pixel-grid .pixel.p-0-33 { animation: ap-0-33 0.5s 0.279s forwards; }
+@keyframes ap-0-34 { from { opacity: 0; top: -400px; left: 976px; } to { opacity: 1; top: 0px; left: 544px; } }
+.pixel-grid .pixel.p-0-34 { animation: ap-0-34 0.5s 0.234s forwards; }
+@keyframes ap-0-35 { from { opacity: 0; top: -368px; left: -688px; } to { opacity: 1; top: 0px; left: 560px; } }
+.pixel-grid .pixel.p-0-35 { animation: ap-0-35 0.5s 0.609s forwards; }
+@keyframes ap-0-38 { from { opacity: 0; top: 912px; left: 80px; } to { opacity: 1; top: 0px; left: 608px; } }
+.pixel-grid .pixel.p-0-38 { animation: ap-0-38 0.5s 0.459s forwards; }
+@keyframes ap-0-39 { from { opacity: 0; top: -192px; left: -656px; } to { opacity: 1; top: 0px; left: 624px; } }
+.pixel-grid .pixel.p-0-39 { animation: ap-0-39 0.5s 0.747s forwards; }
+@keyframes ap-0-40 { from { opacity: 0; top: -80px; left: -608px; } to { opacity: 1; top: 0px; left: 640px; } }
+.pixel-grid .pixel.p-0-40 { animation: ap-0-40 0.5s 0.753s forwards; }
+@keyframes ap-0-41 { from { opacity: 0; top: 1232px; left: -288px; } to { opacity: 1; top: 0px; left: 656px; } }
+.pixel-grid .pixel.p-0-41 { animation: ap-0-41 0.5s 0.519s forwards; }
+@keyframes ap-0-42 { from { opacity: 0; top: 720px; left: -16px; } to { opacity: 1; top: 0px; left: 672px; } }
+.pixel-grid .pixel.p-0-42 { animation: ap-0-42 0.5s 0.414s forwards; }
+@keyframes ap-1-10 { from { opacity: 0; top: 368px; left: 592px; } to { opacity: 1; top: 16px; left: 160px; } }
+.pixel-grid .pixel.p-1-10 { animation: ap-1-10 0.5s 0.198s forwards; }
+@keyframes ap-1-14 { from { opacity: 0; top: -624px; left: 144px; } to { opacity: 1; top: 16px; left: 224px; } }
+.pixel-grid .pixel.p-1-14 { animation: ap-1-14 0.5s 0.525s forwards; }
+@keyframes ap-1-22 { from { opacity: 0; top: 400px; left: 288px; } to { opacity: 1; top: 16px; left: 352px; } }
+.pixel-grid .pixel.p-1-22 { animation: ap-1-22 0.5s 0.147s forwards; }
+@keyframes ap-1-26 { from { opacity: 0; top: -112px; left: -656px; } to { opacity: 1; top: 16px; left: 416px; } }
+.pixel-grid .pixel.p-1-26 { animation: ap-1-26 0.5s 0.267s forwards; }
+@keyframes ap-1-30 { from { opacity: 0; top: 96px; left: -208px; } to { opacity: 1; top: 16px; left: 480px; } }
+.pixel-grid .pixel.p-1-30 { animation: ap-1-30 0.5s 0.642s forwards; }
+@keyframes ap-1-34 { from { opacity: 0; top: -32px; left: -528px; } to { opacity: 1; top: 16px; left: 544px; } }
+.pixel-grid .pixel.p-1-34 { animation: ap-1-34 0.5s 0.09s forwards; }
+@keyframes ap-1-38 { from { opacity: 0; top: 480px; left: 0px; } to { opacity: 1; top: 16px; left: 608px; } }
+.pixel-grid .pixel.p-1-38 { animation: ap-1-38 0.5s 0.462s forwards; }
+@keyframes ap-2-0 { from { opacity: 0; top: 416px; left: 880px; } to { opacity: 1; top: 32px; left: 0px; } }
+.pixel-grid .pixel.p-2-0 { animation: ap-2-0 0.5s 0.468s forwards; }
+@keyframes ap-2-1 { from { opacity: 0; top: -352px; left: -320px; } to { opacity: 1; top: 32px; left: 16px; } }
+.pixel-grid .pixel.p-2-1 { animation: ap-2-1 0.5s 0.18s forwards; }
+@keyframes ap-2-2 { from { opacity: 0; top: 1360px; left: 1200px; } to { opacity: 1; top: 32px; left: 32px; } }
+.pixel-grid .pixel.p-2-2 { animation: ap-2-2 0.5s 0.813s forwards; }
+@keyframes ap-2-4 { from { opacity: 0; top: -496px; left: -16px; } to { opacity: 1; top: 32px; left: 64px; } }
+.pixel-grid .pixel.p-2-4 { animation: ap-2-4 0.5s 0.639s forwards; }
+@keyframes ap-2-5 { from { opacity: 0; top: 352px; left: -496px; } to { opacity: 1; top: 32px; left: 80px; } }
+.pixel-grid .pixel.p-2-5 { animation: ap-2-5 0.5s 0.432s forwards; }
+@keyframes ap-2-6 { from { opacity: 0; top: 1072px; left: -352px; } to { opacity: 1; top: 32px; left: 96px; } }
+.pixel-grid .pixel.p-2-6 { animation: ap-2-6 0.5s 0.285s forwards; }
+@keyframes ap-2-10 { from { opacity: 0; top: 720px; left: 752px; } to { opacity: 1; top: 32px; left: 160px; } }
+.pixel-grid .pixel.p-2-10 { animation: ap-2-10 0.5s 0.393s forwards; }
+@keyframes ap-2-14 { from { opacity: 0; top: 928px; left: 128px; } to { opacity: 1; top: 32px; left: 224px; } }
+.pixel-grid .pixel.p-2-14 { animation: ap-2-14 0.5s 0.72s forwards; }
+@keyframes ap-2-15 { from { opacity: 0; top: -320px; left: 336px; } to { opacity: 1; top: 32px; left: 240px; } }
+.pixel-grid .pixel.p-2-15 { animation: ap-2-15 0.5s 0.789s forwards; }
+@keyframes ap-2-16 { from { opacity: 0; top: 1248px; left: 1360px; } to { opacity: 1; top: 32px; left: 256px; } }
+.pixel-grid .pixel.p-2-16 { animation: ap-2-16 0.5s 0.447s forwards; }
+@keyframes ap-2-22 { from { opacity: 0; top: 272px; left: 32px; } to { opacity: 1; top: 32px; left: 352px; } }
+.pixel-grid .pixel.p-2-22 { animation: ap-2-22 0.5s 0.36s forwards; }
+@keyframes ap-2-26 { from { opacity: 0; top: 912px; left: 1168px; } to { opacity: 1; top: 32px; left: 416px; } }
+.pixel-grid .pixel.p-2-26 { animation: ap-2-26 0.5s 0.612s forwards; }
+@keyframes ap-2-27 { from { opacity: 0; top: 1296px; left: 1216px; } to { opacity: 1; top: 32px; left: 432px; } }
+.pixel-grid .pixel.p-2-27 { animation: ap-2-27 0.5s 0.225s forwards; }
+@keyframes ap-2-28 { from { opacity: 0; top: -400px; left: 1264px; } to { opacity: 1; top: 32px; left: 448px; } }
+.pixel-grid .pixel.p-2-28 { animation: ap-2-28 0.5s 0.684s forwards; }
+@keyframes ap-2-29 { from { opacity: 0; top: -224px; left: 848px; } to { opacity: 1; top: 32px; left: 464px; } }
+.pixel-grid .pixel.p-2-29 { animation: ap-2-29 0.5s 0.894s forwards; }
+@keyframes ap-2-30 { from { opacity: 0; top: -272px; left: 272px; } to { opacity: 1; top: 32px; left: 480px; } }
+.pixel-grid .pixel.p-2-30 { animation: ap-2-30 0.5s 0.819s forwards; }
+@keyframes ap-2-34 { from { opacity: 0; top: 1184px; left: 1296px; } to { opacity: 1; top: 32px; left: 544px; } }
+.pixel-grid .pixel.p-2-34 { animation: ap-2-34 0.5s 0.882s forwards; }
+@keyframes ap-2-38 { from { opacity: 0; top: 1328px; left: -688px; } to { opacity: 1; top: 32px; left: 608px; } }
+.pixel-grid .pixel.p-2-38 { animation: ap-2-38 0.5s 0.381s forwards; }
+@keyframes ap-2-39 { from { opacity: 0; top: 1120px; left: 32px; } to { opacity: 1; top: 32px; left: 624px; } }
+.pixel-grid .pixel.p-2-39 { animation: ap-2-39 0.5s 0.351s forwards; }
+@keyframes ap-2-40 { from { opacity: 0; top: 416px; left: 400px; } to { opacity: 1; top: 32px; left: 640px; } }
+.pixel-grid .pixel.p-2-40 { animation: ap-2-40 0.5s 0.423s forwards; }
+@keyframes ap-2-41 { from { opacity: 0; top: 1024px; left: 1216px; } to { opacity: 1; top: 32px; left: 656px; } }
+.pixel-grid .pixel.p-2-41 { animation: ap-2-41 0.5s 0.009s forwards; }
+@keyframes ap-2-42 { from { opacity: 0; top: 1056px; left: 784px; } to { opacity: 1; top: 32px; left: 672px; } }
+.pixel-grid .pixel.p-2-42 { animation: ap-2-42 0.5s 0.858s forwards; }
+@keyframes ap-3-0 { from { opacity: 0; top: -304px; left: 560px; } to { opacity: 1; top: 48px; left: 0px; } }
+.pixel-grid .pixel.p-3-0 { animation: ap-3-0 0.5s 0.864s forwards; }
+@keyframes ap-3-2 { from { opacity: 0; top: 800px; left: 496px; } to { opacity: 1; top: 48px; left: 32px; } }
+.pixel-grid .pixel.p-3-2 { animation: ap-3-2 0.5s 0.261s forwards; }
+@keyframes ap-3-4 { from { opacity: 0; top: -688px; left: 368px; } to { opacity: 1; top: 48px; left: 64px; } }
+.pixel-grid .pixel.p-3-4 { animation: ap-3-4 0.5s 0.078s forwards; }
+@keyframes ap-3-6 { from { opacity: 0; top: -640px; left: 1248px; } to { opacity: 1; top: 48px; left: 96px; } }
+.pixel-grid .pixel.p-3-6 { animation: ap-3-6 0.5s 0.441s forwards; }
+@keyframes ap-3-10 { from { opacity: 0; top: 272px; left: -656px; } to { opacity: 1; top: 48px; left: 160px; } }
+.pixel-grid .pixel.p-3-10 { animation: ap-3-10 0.5s 0.804s forwards; }
+@keyframes ap-3-14 { from { opacity: 0; top: 1360px; left: -80px; } to { opacity: 1; top: 48px; left: 224px; } }
+.pixel-grid .pixel.p-3-14 { animation: ap-3-14 0.5s 0.171s forwards; }
+@keyframes ap-3-22 { from { opacity: 0; top: 816px; left: 80px; } to { opacity: 1; top: 48px; left: 352px; } }
+.pixel-grid .pixel.p-3-22 { animation: ap-3-22 0.5s 0.711s forwards; }
+@keyframes ap-3-26 { from { opacity: 0; top: 192px; left: -176px; } to { opacity: 1; top: 48px; left: 416px; } }
+.pixel-grid .pixel.p-3-26 { animation: ap-3-26 0.5s 0.579s forwards; }
+@keyframes ap-3-29 { from { opacity: 0; top: 1200px; left: -656px; } to { opacity: 1; top: 48px; left: 464px; } }
+.pixel-grid .pixel.p-3-29 { animation: ap-3-29 0.5s 0.735s forwards; }
+@keyframes ap-3-34 { from { opacity: 0; top: 144px; left: -16px; } to { opacity: 1; top: 48px; left: 544px; } }
+.pixel-grid .pixel.p-3-34 { animation: ap-3-34 0.5s 0.63s forwards; }
+@keyframes ap-3-42 { from { opacity: 0; top: 528px; left: -144px; } to { opacity: 1; top: 48px; left: 672px; } }
+.pixel-grid .pixel.p-3-42 { animation: ap-3-42 0.5s 0.354s forwards; }
+@keyframes ap-4-0 { from { opacity: 0; top: -608px; left: -400px; } to { opacity: 1; top: 64px; left: 0px; } }
+.pixel-grid .pixel.p-4-0 { animation: ap-4-0 0.5s 0.297s forwards; }
+@keyframes ap-4-2 { from { opacity: 0; top: 1136px; left: 528px; } to { opacity: 1; top: 64px; left: 32px; } }
+.pixel-grid .pixel.p-4-2 { animation: ap-4-2 0.5s 0.036s forwards; }
+@keyframes ap-4-4 { from { opacity: 0; top: -176px; left: 1008px; } to { opacity: 1; top: 64px; left: 64px; } }
+.pixel-grid .pixel.p-4-4 { animation: ap-4-4 0.5s 0.273s forwards; }
+@keyframes ap-4-5 { from { opacity: 0; top: 320px; left: -400px; } to { opacity: 1; top: 64px; left: 80px; } }
+.pixel-grid .pixel.p-4-5 { animation: ap-4-5 0.5s 0.654s forwards; }
+@keyframes ap-4-6 { from { opacity: 0; top: -560px; left: 1072px; } to { opacity: 1; top: 64px; left: 96px; } }
+.pixel-grid .pixel.p-4-6 { animation: ap-4-6 0.5s 0.03s forwards; }
+@keyframes ap-4-10 { from { opacity: 0; top: 640px; left: 720px; } to { opacity: 1; top: 64px; left: 160px; } }
+.pixel-grid .pixel.p-4-10 { animation: ap-4-10 0.5s 0.624s forwards; }
+@keyframes ap-4-14 { from { opacity: 0; top: -496px; left: 880px; } to { opacity: 1; top: 64px; left: 224px; } }
+.pixel-grid .pixel.p-4-14 { animation: ap-4-14 0.5s 0.768s forwards; }
+@keyframes ap-4-15 { from { opacity: 0; top: 96px; left: 928px; } to { opacity: 1; top: 64px; left: 240px; } }
+.pixel-grid .pixel.p-4-15 { animation: ap-4-15 0.5s 0.672s forwards; }
+@keyframes ap-4-16 { from { opacity: 0; top: -672px; left: -224px; } to { opacity: 1; top: 64px; left: 256px; } }
+.pixel-grid .pixel.p-4-16 { animation: ap-4-16 0.5s 0.495s forwards; }
+@keyframes ap-4-17 { from { opacity: 0; top: -464px; left: -208px; } to { opacity: 1; top: 64px; left: 272px; } }
+.pixel-grid .pixel.p-4-17 { animation: ap-4-17 0.5s 0.222s forwards; }
+@keyframes ap-4-18 { from { opacity: 0; top: 640px; left: 1328px; } to { opacity: 1; top: 64px; left: 288px; } }
+.pixel-grid .pixel.p-4-18 { animation: ap-4-18 0.5s 0.111s forwards; }
+@keyframes ap-4-22 { from { opacity: 0; top: 1024px; left: 224px; } to { opacity: 1; top: 64px; left: 352px; } }
+.pixel-grid .pixel.p-4-22 { animation: ap-4-22 0.5s 0.807s forwards; }
+@keyframes ap-4-26 { from { opacity: 0; top: -80px; left: 1296px; } to { opacity: 1; top: 64px; left: 416px; } }
+.pixel-grid .pixel.p-4-26 { animation: ap-4-26 0.5s 0.255s forwards; }
+@keyframes ap-4-30 { from { opacity: 0; top: -272px; left: -400px; } to { opacity: 1; top: 64px; left: 480px; } }
+.pixel-grid .pixel.p-4-30 { animation: ap-4-30 0.5s 0.264s forwards; }
+@keyframes ap-4-33 { from { opacity: 0; top: -160px; left: -608px; } to { opacity: 1; top: 64px; left: 528px; } }
+.pixel-grid .pixel.p-4-33 { animation: ap-4-33 0.5s 0.666s forwards; }
+@keyframes ap-4-34 { from { opacity: 0; top: -16px; left: 1200px; } to { opacity: 1; top: 64px; left: 544px; } }
+.pixel-grid .pixel.p-4-34 { animation: ap-4-34 0.5s 0s forwards; }
+@keyframes ap-4-35 { from { opacity: 0; top: 880px; left: 1216px; } to { opacity: 1; top: 64px; left: 560px; } }
+.pixel-grid .pixel.p-4-35 { animation: ap-4-35 0.5s 0.9s forwards; }
+@keyframes ap-4-38 { from { opacity: 0; top: -608px; left: 912px; } to { opacity: 1; top: 64px; left: 608px; } }
+.pixel-grid .pixel.p-4-38 { animation: ap-4-38 0.5s 0.756s forwards; }
+@keyframes ap-4-39 { from { opacity: 0; top: 192px; left: 688px; } to { opacity: 1; top: 64px; left: 624px; } }
+.pixel-grid .pixel.p-4-39 { animation: ap-4-39 0.5s 0.561s forwards; }
+@keyframes ap-4-40 { from { opacity: 0; top: -256px; left: 608px; } to { opacity: 1; top: 64px; left: 640px; } }
+.pixel-grid .pixel.p-4-40 { animation: ap-4-40 0.5s 0.042s forwards; }
+@keyframes ap-4-41 { from { opacity: 0; top: 1040px; left: -688px; } to { opacity: 1; top: 64px; left: 656px; } }
+.pixel-grid .pixel.p-4-41 { animation: ap-4-41 0.5s 0.534s forwards; }
+@keyframes ap-4-42 { from { opacity: 0; top: 960px; left: 272px; } to { opacity: 1; top: 64px; left: 672px; } }
+.pixel-grid .pixel.p-4-42 { animation: ap-4-42 0.5s 0.315s forwards; }
+@keyframes ap-5-6 { from { opacity: 0; top: 752px; left: -288px; } to { opacity: 1; top: 80px; left: 96px; } }
+.pixel-grid .pixel.p-5-6 { animation: ap-5-6 0.5s 0.867s forwards; }
+@keyframes ap-6-4 { from { opacity: 0; top: 336px; left: 160px; } to { opacity: 1; top: 96px; left: 64px; } }
+.pixel-grid .pixel.p-6-4 { animation: ap-6-4 0.5s 0.129s forwards; }
+@keyframes ap-6-5 { from { opacity: 0; top: 496px; left: 944px; } to { opacity: 1; top: 96px; left: 80px; } }
+.pixel-grid .pixel.p-6-5 { animation: ap-6-5 0.5s 0.291s forwards; }
+@keyframes ap-6-6 { from { opacity: 0; top: 64px; left: 320px; } to { opacity: 1; top: 96px; left: 96px; } }
+.pixel-grid .pixel.p-6-6 { animation: ap-6-6 0.5s 0.828s forwards; }
+

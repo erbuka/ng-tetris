@@ -1,0 +1,35 @@
+div.tet-menu {
+  position: relative;
+  width: 250px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.tet-menu button {
+  transition: all 0.4s
+}
+
+div.tet-menu button span::before {
+  content: "\276C    ";
+  white-space: pre;
+}
+
+div.tet-menu button span::after {
+  content: "   \276D";
+  white-space: pre;
+}
+
+div.tet-menu button span::before, div.tet-menu button span::after {
+  opacity: 0;
+  transition: opacity 0.4s;
+}
+
+div.tet-menu button:hover span::before, div.tet-menu button:hover span::after {
+  opacity: 1;
+}
+
+.pixel-grid .pixel.filled .block {
+	background-image: url(../../assets/images/brick.svg);
+  background-size: 100% 100%;
+}

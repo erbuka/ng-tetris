@@ -1,0 +1,10 @@
+<div 
+  class="tet-countdown" 
+  *ngFor="let t of timeSteps" 
+  (animationend)="decrement()"
+  [ngStyle]="{ 
+    'animation-name' : currentTime === t ? 'countdown' : '' ,
+    'display' : currentTime === t ? 'block' : 'none'
+  }">
+  {{ t }}
+</div>
