@@ -1,0 +1,19 @@
+@keyframes countdown {
+    from { 
+        transform: translate(-50%, -50%) scale(1.5);
+        opacity: 0;
+    }
+    to {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+}
+
+.tet-countdown {
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 30vh;
+}

@@ -1,0 +1,77 @@
+<div class="tet-game-container w3-display-container">
+	<div class=" w3-display-middle" style="white-space: nowrap;">
+		<div class="tet-game-grid-wrapper w3-cell"
+			style="border-top : 0"
+			[ngStyle]="{ 
+				'border-left-width.px' : cellSize,
+				'border-right-width.px' : cellSize,
+				'border-bottom-width.px' : cellSize
+			}">
+
+			<div class="tet-game-grid" [ngStyle]="{ 'width.px' : game.width * cellSize, 'height.px' : game.height * cellSize }">
+				<div 
+					class="tet-game-cell"
+					*ngFor="let cell of game.grid" 
+				 	[ngClass]="cell.colorClass"
+					[ngStyle]="{ 
+						'width.px' : cellSize, 
+						'height.px' : cellSize, 
+						'border-width.px' : cellSize / 16,
+						'border-color': '#000'
+					}">
+					
+					<div [class.block]="cell.pieceId != 0"></div>
+
+				</div>
+				<div class="w3-clear"></div>
+			</div>
+
+			<app-countdown (ended)="onCountdownEnded()"></app-countdown>
+
+		</div>
+		<div class="w3-padding tet-game-info w3-cell w3-cell-middle">
+			<div>
+
+				<div class="w3-center">Next</div>
+
+				<div 
+					class="w3-display-container"
+					style="width: 100%; min-width: 200px"
+					[ngStyle]="{ 'height.px' : 5 * cellSize }">
+
+					<div							
+						*ngIf="game.nextPiece != null"
+						[ngStyle]="{ 'width.px' : game.nextPiece.size * cellSize }" 
+						class="w3-display-middle">
+
+						<div
+							class="w3-left tet-game-cell"
+							*ngFor="let val of game.nextPiece.data"
+							[ngClass]="game.nextPiece.colorClass"
+							[ngStyle]="{ 
+								'visibility' : val == 0 ? 'hidden' : 'visible',
+								'width.px' : cellSize, 
+								'height.px' : cellSize, 
+								'border-width.px' : cellSize / 16,
+								'border-color': '#000'
+							}">
+							
+							<div [class.block]="val != 0"></div>
+
+
+						</div>
+						<div class="w3-clear"></div>
+
+					</div>
+
+				</div>
+			</div>
+
+			<div class="w3-cell-row"><div class="w3-cell">Score</div><div class="w3-cell w3-right-align" style="width: 180px">{{ game.score }}</div></div>
+			<div class="w3-cell-row"><div class="w3-cell">Lines</div><div class="w3-cell w3-right-align" style="width: 180px">{{ game.lines }}</div></div>
+			<div class="w3-cell-row"><div class="w3-cell">Level</div><div class="w3-cell w3-right-align" style="width: 180px">{{ game.level }}</div></div>
+		</div>
+		<div class="w3-clear"></div>
+	</div>
+</div>
+<app-gameover *ngIf="this.game.gameOver" [score]="game.score" (scoreSaved)="onScoreSaved()"></app-gameover>
