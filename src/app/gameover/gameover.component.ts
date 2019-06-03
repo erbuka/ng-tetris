@@ -1,4 +1,4 @@
-import { Component, OnInit, EventEmitter, Output, Input, ViewChild, ElementRef } from '@angular/core';
+import { Component, OnInit, EventEmitter, Output, Input, ViewChild, ElementRef, AfterViewInit } from '@angular/core';
 import { HighscoresService, Score } from '../services/highscores.service';
 
 @Component({
@@ -6,9 +6,9 @@ import { HighscoresService, Score } from '../services/highscores.service';
   templateUrl: './gameover.component.html',
   styleUrls: ['./gameover.component.css']
 })
-export class GameoverComponent implements OnInit {
+export class GameoverComponent implements OnInit, AfterViewInit {
 
-  @ViewChild('inputName') inputName : ElementRef; 
+  @ViewChild('inputName', { static: true }) inputName : ElementRef; 
 
   @Output("scoreSaved") scoreSavedEvent : EventEmitter<Score> = new EventEmitter(true);
   @Input() score : number;
@@ -16,7 +16,9 @@ export class GameoverComponent implements OnInit {
   constructor(private highscores : HighscoresService) { }
 
   ngOnInit() {
-    this.inputName.nativeElement.focus();
+  }
+  
+  ngAfterViewInit() {
   }
 
   onKeyUp(evt) {
