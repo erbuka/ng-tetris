@@ -8,5 +8,5 @@ A tetris clone in Angular. No canvas here! Only working with DOM :)
 
 ## Build
 - `npm build` - regular Angular production build
-- `npm run build-web` - Angular build with __baseHref =__ _"/tetris/"_
+- `npm run build-ghpages` - Angular build for GitHub Pages
 - `npm run build-electron` - Electron packaging
